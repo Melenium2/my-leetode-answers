@@ -26,7 +26,6 @@ func detectCapitalUse(word string) bool {
 		} else {
 			lower++
 		}
-
 	}
 
 	if lower == len(word) || capitals == len(word) {
