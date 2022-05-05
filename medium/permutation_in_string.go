@@ -37,7 +37,7 @@ func checkPermutation(s1 string, s2 string) bool {
 	}
 
 	for endIndex := len(s1); endIndex <= len(s2); endIndex++ {
-		var runes [128]uint8
+		var runes [26]uint8
 		substring := s2[startIndex:endIndex]
 		nextIter := false
 
